@@ -1,4 +1,4 @@
-# A Nodal Application
+# software-daily.server
 
 ## Running Locally
 
@@ -9,7 +9,8 @@ nodal s
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 
-# software-daily.server
+## API Structure
+[Apiary Documentation](http://docs.softwaredaily.apiary.io/)
 
 **Slack:** https://software-daily.slack.com/messages/server/
 
