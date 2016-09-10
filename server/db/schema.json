@@ -1,5 +1,25 @@
 {
 
-  "migration_id": null
+  "migration_id": 2016091015101875,
+
+  "models": {
+
+    "User": {
+
+      "table": "users",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "email", "type": "string", "properties": {"unique":true}},
+        {"name": "username", "type": "string", "properties": {"unique":true}},
+        {"name": "twitter", "type": "string", "properties": {}},
+        {"name": "password", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
 
 }
