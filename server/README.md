@@ -1,12 +1,41 @@
 # software-daily.server
 
-## Running Locally
+The Software Daily API is created using the Nodal framework. Nodal is a Node.js server platform and framework that enables you to develop API services easily. 
 
+### Install Nodal 
+
+```sh
+npm install nodal -g
+```
+### Boot your server with:
+    
 ```sh
 nodal s
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+### Database 
+Database credentials are found in config/db.json.
+
+#### Creating Database using Nodal
+
+This creates the database defined in config/db.json.
+
+```sh
+nodal db:create
+```
+
+#### Running Migrations
+
+```sh
+nodal db:prepare
+```
+
+```sh
+nodal db:migrate
+```
+
 
 
 ## API Structure

@@ -1,6 +1,29 @@
 {
 
-  "development": {},
+  "development": {
+    "User": [
+      {
+        "username": "edgarpino",
+        "email": "edgarbeltran@me.com",
+        "password": "securepassword",
+        "twitter" : "edgar971"
+      },
+      {
+        "username": "frances",
+        "email": "frances.barrett48@example.com",
+        "password": "password",
+        "twitter" : "frances.barrett48"
+
+      },
+      {
+        "username": "lucas",
+        "email": "lucas.hart64@example.com",
+        "password": "pearl",
+        "twitter" : "lucas.hart64"
+
+      }
+    ]
+  },
 
   "test": {},
 
