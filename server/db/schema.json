@@ -1,8 +1,24 @@
 {
 
-  "migration_id": 2016091404152819,
+  "migration_id": 2016091404461364,
 
   "models": {
+
+    "Comment": {
+
+      "table": "comments",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "post_id", "type": "int", "properties": {}},
+        {"name": "parent_id", "type": "int", "properties": {}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "body", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "Post": {
 
