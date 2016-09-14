@@ -77,7 +77,82 @@
     ]
   },
 
-  "test": {},
+  "test": {
+    "User": [
+      {
+        "username": "edgarpino",
+        "email": "edgarbeltran@me.com",
+        "password": "securepassword",
+        "twitter" : "edgar971"
+      },
+      {
+        "username": "frances",
+        "email": "frances.barrett48@example.com",
+        "password": "password",
+        "twitter" : "frances.barrett48"
+
+      },
+      {
+        "username": "lucas",
+        "email": "lucas.hart64@example.com",
+        "password": "pearl",
+        "twitter" : "lucas.hart64"
+
+      }
+    ],
+    "Post": [
+      {
+        "title": "Microsoft Antitrust with Harry First",
+        "source": "http://softwareengineeringdaily.com/2016/09/13/microsoft-antitrust-with-harry-first/",
+        "user_id":  1
+      },
+      {
+        "title": "Uber’s Postgres Problems with Evan Klitzke",
+        "source": "http://softwareengineeringdaily.com/2016/09/09/ubers-postgres-problems-with-evan-klitzke/",
+        "user_id":  1
+      },
+      {
+        "title": "Relational Databases with Craig Kerstiens",
+        "source": "http://softwareengineeringdaily.com/2016/09/08/relational-databases-with-craig-kerstiens/",
+        "user_id":  2
+      },
+      {
+        "title": "CockroachDB with Ben Darnell",
+        "source": "http://softwareengineeringdaily.com/2016/04/13/cockroachdb-ben-darnell/",
+        "user_id":  3
+      },
+      {
+        "title": "The Recurse Center with Nick Bergson-Shilcock",
+        "source": "http://softwareengineeringdaily.com/2016/09/07/the-recurse-center-with-nick-bergstrom-shilcock/",
+        "user_id":  2
+      },
+      {
+        "title": "Helping Veterans Learn to Code with David Molina",
+        "source": "http://softwareengineeringdaily.com/2016/03/20/helping-veterans-learn-code-david-molina/",
+        "user_id":  3
+      }
+    ],
+    "Comment" : [
+      {
+        "post_id":1,
+        "parent_id": null,
+        "user_id": 2,
+        "body": "Awesome Post!"
+      },
+      {
+        "post_id":1,
+        "parent_id": 1,
+        "user_id": 1,
+        "body": "Agreed!"
+      },
+      {
+        "post_id":2,
+        "parent_id": null,
+        "user_id": 1,
+        "body": "Great podcast!"
+      }
+    ]
+  },
 
   "production": {}
 

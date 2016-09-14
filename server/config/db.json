@@ -12,10 +12,10 @@
   "test": {
     "main": {
       "adapter": "postgres",
-      "host": "localhost",
+      "host": "192.168.99.100",
       "port": "5432",
-      "user": "postgres",
-      "password": "",
+      "user": "sedaily",
+      "password": "091016",
       "database": "software_daily_rest_api_test"
     }
   },
