@@ -1,8 +1,23 @@
 {
 
-  "migration_id": 2016091015101875,
+  "migration_id": 2016091404152819,
 
   "models": {
+
+    "Post": {
+
+      "table": "posts",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "title", "type": "string", "properties": {}},
+        {"name": "source", "type": "string", "properties": {}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "User": {
 
