@@ -6,7 +6,7 @@ class IndexController extends Nodal.Controller {
 
   get() {
 
-    this.respond({message: 'Welcome to your Nodal Project'});
+    this.respond({message: 'Software Daily RESTFul API'});
 
   }
 
