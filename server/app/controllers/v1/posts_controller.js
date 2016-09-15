@@ -20,6 +20,8 @@ class V1PostsController extends Nodal.Controller {
       .join('comments')
       .end((err, models) => {
 
+        // When joining data we have to specify which fields to display.
+        // You can also specify which fields to display
         this.respond(err || models,
           [
             'id',
@@ -31,7 +33,6 @@ class V1PostsController extends Nodal.Controller {
             'updated_at'
           ]
         );
-
 
       });
 
