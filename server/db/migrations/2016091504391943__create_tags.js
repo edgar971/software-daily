@@ -12,7 +12,11 @@ class CreateTags extends Nodal.Migration {
   up() {
 
     return [
-      this.createTable("tags", [{"name":"text","type":"string"}])
+      this.createTable("tags", [
+
+        {"name":"text", "type":"string"}
+
+        ])
     ];
 
   }
